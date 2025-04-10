@@ -36,6 +36,12 @@ section {
   object-fit: cover;
 }
 
+.card .card-text {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Contact & Social Media Styling */
 .contact-details p,
 .social-media h5 {

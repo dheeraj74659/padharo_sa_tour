@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Vacation Packages",
+        "description": "Explore our wide variety of vacation packages to destinations around the globe. From exotic beach resorts to historical city tours, we have something for everyone.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Customized Travel Planning",
+        "description": "If you’re looking for a tailor-made trip, our specialists will work with you to create an itinerary based on your interests and preferences.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Honeymoon & Romantic Getaways",
+        "description": "Celebrate your love with a romantic escape to stunning destinations. We offer luxurious honeymoon packages that include exclusive services to make your journey unforgettable.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Group Tours & Corporate Travel",
+        "description": "Whether you’re traveling with friends, family, or a team, our group tours are designed to provide a fun, informative, and hassle-free experience.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Flight & Hotel Booking",
+        "description": "Let us help you book the best flights and accommodations at unbeatable prices, ensuring you get the best value for your money.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Corporate and Social Events",
+        "description": "We take the stress out of planning high-impact events in extraordinary locations by offering end-to-end travel and event solutions.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Corporate Conferences & Seminars",
+        "description": "Full-scale management of meetings and conferences, including venue sourcing, group travel arrangements, accommodations, and technical support.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Team-Building Retreats",
+        "description": "Organize off-site retreats that blend productivity with fun—adventure activities, wellness sessions, and tailored team experiences.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Incentive Travel Programs",
+        "description": "Inspire performance with unforgettable reward trips—luxury cruises, exclusive experiences, and high-end retreats planned to perfection.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Product Launches & Brand Events",
+        "description": "Let us coordinate travel and logistics for unique brand showcases and launches in desirable global destinations.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Destination Weddings",
+        "description": "Customized wedding planning services that include guest travel, accommodations, ceremony setup, and local vendor coordination.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Birthday & Anniversary Escapes",
+        "description": "Curate unforgettable milestone experiences, from private villas and yachts to cultural getaways and gourmet dining.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Social Group Travel",
+        "description": "Tailored packages for alumni groups, social clubs, religious groups, or interest-based communities—complete with custom itineraries, group bookings, and guided tours.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    },
+    {
+        "title": "Luxury Event Travel",
+        "description": "From red-carpet events to film festivals or international galas, we handle every detail so clients can show up stress-free and in style.",
+        "image": "/images/test.jpg",
+        "link": "#contact"
+    }
+]
