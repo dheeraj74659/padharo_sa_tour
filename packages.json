@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Tropical Islands",
+    "description": "Andaman & Nicobar Islands, Lakshadweep Islands, Majuli Island (Assam), Diu Island (Daman & Diu), St. Mary’s Islands (Karnataka) Best Time To Visit Tropical Islands are October to April – clear skies, calm waters, and pleasant temperatures.",
+    "image": "/images/island.jpg",
+    "link": "#contact"
+  },
+  {
+    "title": "Cultural Cities",
+    "description": "Jaipur (Rajasthan), Varanasi (Uttar Pradesh), Udaipur (Rajasthan), Kolkata (West Bengal), Madurai (Tamil Nadu), Mysuru (Karnataka)  and local traditions.",
+    "image": "/images/cultural.jpg",
+    "link": "#contact"
+  },
+  {
+    "title": "Adventure Getaways",
+    "description": "Rishikesh (Uttarakhand), Manali & Solang Valley (Himachal Pradesh), Nepal – Hiking, Goa, Leh-Ladakh (Jammu & Kashmir), Jaisalmer (Rajasthan), Meghalaya, Coorg & Wayanad (Karnataka/Kerala) and outdoor exploration.",
+    "image": "/images/adventure-gateway.jpg",
+    "link": "#contact"
+  },
+  {
+    "title": "Safari and Wildlife",
+    "description": "Ranthambore National Park (Rajasthan), Jim Corbett National Park (Uttarakhand), Kaziranga National Park (Assam), Gir National Park (Gujarat), Kanha National Park (Madhya Pradesh), Bandhavgarh National Park (Madhya Pradesh), Satpura National Park (Madhya Pradesh), Periyar Wildlife Sanctuary (Kerala) – Witness the majesty of nature in its rawest form.",
+    "image": "/images/safari.jpg",
+    "link": "#contact"
+  }
+]
+
+  

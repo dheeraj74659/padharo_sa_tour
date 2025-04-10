@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Cab Rental",
+      "description": "Affordable and reliable cab rental services available across major cities.",
+      "image": "https://source.unsplash.com/600x400/?cab",
+      "link": "#contact"
+    },
+    {
+      "title": "Car Rental",
+      "description": "Experience comfort and convenience with our car rental options.",
+      "image": "https://source.unsplash.com/600x400/?car,rental",
+      "link": "#contact"
+    },
+    {
+      "title": "Villa Rental",
+      "description": "Luxury villa rentals for a relaxing and exclusive stay.",
+      "image": "https://source.unsplash.com/600x400/?villa",
+      "link": "#contact"
+    },
+    {
+      "title": "Bike Rental",
+      "description": "Explore the city on two wheels with our bike rental services.",
+      "image": "https://source.unsplash.com/600x400/?bike,rental",
+      "link": "#contact"
+    }
+  ]
+  

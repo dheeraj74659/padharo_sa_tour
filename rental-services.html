@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rental Services - GlobeWay Travels</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation (Same as home page) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">GlobeWay Travels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#packages">Packages</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" 
+               data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item active" href="rental-services.html">Rental Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white ms-2" href="tel:+911234567890">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Rental Services Hero Section -->
+  <header id="rental-hero" class="vh-50 d-flex align-items-center" style="background: url('https://source.unsplash.com/1600x400/?rental,services') center/cover no-repeat;">
+    <div class="container text-center text-white">
+      <h1 class="display-4 fw-bold">Rental Services</h1>
+      <p class="lead">Choose from our wide range of rental services for a comfortable and enjoyable experience.</p>
+    </div>
+  </header>
+
+  <!-- Rental Services Section -->
+  <section id="rental-services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Rental Options</h2>
+      <div class="row" id="rental-services-container">
+        <!-- Rental service cards will be injected here dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+      <p>&copy; 2025 GlobeWay Travels. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS for Rental Services -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('rental-services.json')
+        .then(response => response.json())
+        .then(services => {
+          const container = document.getElementById('rental-services-container');
+          services.forEach(service => {
+            const col = document.createElement('div');
+            col.className = "col-md-4 mb-4";
+            col.innerHTML = `
+              <div class="card h-100">
+                <img src="${service.image}" class="card-img-top" alt="${service.title}" onerror="this.onerror=null;this.src='images/default-service.jpg';">
+                <div class="card-body">
+                  <h5 class="card-title">${service.title}</h5>
+                  <p class="card-text">${service.description}</p>
+                  <a href="${service.link}" class="btn btn-outline-primary">Learn More</a>
+                </div>
+              </div>
+            `;
+            container.appendChild(col);
+          });
+        })
+        .catch(error => console.error("Error loading rental services:", error));
+    });
+  </script>
+</body>
+</html>
